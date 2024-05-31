@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class SceneManage : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        SceneManager.LoadScene("Outside", LoadSceneMode.Additive);
     }
 
     // Update is called once per frame
