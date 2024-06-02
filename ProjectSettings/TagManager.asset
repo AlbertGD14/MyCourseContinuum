@@ -6,7 +6,7 @@ TagManager:
   tags:
   - BlendPlane0
   - BlendPlane1
-  - TriggerNextScene
+  - Character
   layers:
   - Default
   - TransparentFX

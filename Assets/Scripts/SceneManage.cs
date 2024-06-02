@@ -21,7 +21,7 @@ public class SceneManage : MonoBehaviour
             Scene scene = SceneManager.GetSceneByName("Outside");
             if (scene.isLoaded)
             {
-                SceneManager.UnloadScene("Outside");
+                SceneManager.UnloadSceneAsync("Outside");
             }
             else
             {
@@ -37,7 +37,7 @@ public class SceneManage : MonoBehaviour
             Scene scene = SceneManager.GetSceneByName("Corridor_Scene");
             if (scene.isLoaded)
             {
-                SceneManager.UnloadScene("Corridor_Scene");
+                SceneManager.UnloadSceneAsync("Corridor_Scene");
             }
             else
             {
@@ -52,7 +52,7 @@ public class SceneManage : MonoBehaviour
             Scene scene = SceneManager.GetSceneByName("Mummy_Scene");
             if (scene.isLoaded)
             {
-                SceneManager.UnloadScene("Mummy_Scene");
+                SceneManager.UnloadSceneAsync("Mummy_Scene");
             }
             else
             {   
@@ -66,7 +66,7 @@ public class SceneManage : MonoBehaviour
             Scene scene = SceneManager.GetSceneByName("Platform_scene");
             if (scene.isLoaded)
             {
-                SceneManager.UnloadScene("Platform_scene");
+                SceneManager.UnloadSceneAsync("Platform_scene");
             }
             else
             {
@@ -80,7 +80,7 @@ public class SceneManage : MonoBehaviour
             Scene scene = SceneManager.GetSceneByName("Puzzle_scene");
             if (scene.isLoaded)
             {
-                SceneManager.UnloadScene("Puzzle_scene");
+                SceneManager.UnloadSceneAsync("Puzzle_scene");
             }
             else
             {
